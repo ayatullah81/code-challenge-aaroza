@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('/img/background-img.jpg') no-repeat center top/cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 2.8;
+    color: azure
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/******************* HEADER SECTION ********************/
+.header {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold
+}
+.dummy-text {
+    font-size: 18px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav li {
+    margin-left: 35px;
+}
+.nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+/********************** MAIN CONTENT ************************/
+.main-content {
+    width: 50%;
+    margin-top: 85px;
+}
+.main-content h1 {
+    font-size: 28px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.main-content p {
+    margin: 20px auto;
+}
+.form {
+    margin: 10px auto;
+}
+.form .email{
+    padding: 12px;
+    width: 60%;
+    border-radius: 3px;
+    border-style: none;
+}
+.form .submit {
+    margin-left: 5px;
+    padding: 11px;
+    width: 35%;
+    background: rgb(238, 78, 42);
+    border-style: none;
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.form .submit:hover {
+    cursor: pointer;
+}
